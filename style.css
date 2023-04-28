@@ -72,11 +72,22 @@ header {
 .column {
     width: 25%;
     margin: auto;
+    padding: 0;
+}
+
+.column p {
+    width: 75%;
+    margin: auto;
 }
 
 @media only screen and (max-width: 768px) {
     .my-skills {
         width: 100%;
+    }
+
+    .my-skills h2 {
+        width: 75%;
+        margin: auto;
     }
 
     .columns {
@@ -89,7 +100,7 @@ header {
 
     .column p {
         line-height: 1.6;
-        margin: 2em;
+        width: 55%;
     }
 
     .intro {
