@@ -6,6 +6,7 @@ body {
 p {
     letter-spacing: .2ch;
     font-size: 75%;
+    line-height: 1.6;
 }
 
 h1 {
@@ -44,7 +45,14 @@ header {
     width: 75%;
     margin: auto;
     text-align: center;
-    margin-top: 2em;
+    margin-top: 1.5em;
+}
+
+.intro h2 {
+    font-size: 26px;
+    width: 70%;
+    margin: auto;
+    line-height: 1.6;
 }
 
 .my-skills {
